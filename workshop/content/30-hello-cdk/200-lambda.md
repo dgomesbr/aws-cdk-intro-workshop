@@ -43,13 +43,13 @@ Okay, let's use `npm install` (or in short `npm i`) to install the AWS Lambda
 module and all it's dependencies into our project:
 
 ```console
-npm install @aws-cdk/aws-lambda@0.22.0
+npm install @aws-cdk/aws-lambda@{{% cdkversion %}}
 ```
 
 Output should look like this:
 
 ```
-+ @aws-cdk/aws-lambda@0.22.0
++ @aws-cdk/aws-lambda@0{{% cdkversion %}}
 updated 1 package and audited 1571 packages in 5.098s
 ```
 

@@ -9,6 +9,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <cdk.version>0.36.1</cdk.version>
     </properties>
 
     <build>
@@ -38,35 +39,35 @@
         <!-- AWS Cloud Development Kit -->
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
-            <artifactId>cdk</artifactId>
-            <version>0.22.0</version>
+            <artifactId>core</artifactId>
+            <version>${cdk.version}</version>
         </dependency>
 
         <!-- Respective AWS Construct Libraries -->
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>apigateway</artifactId>
-            <version>0.22.0</version>
+            <version>${cdk.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>dynamodb</artifactId>
-            <version>0.22.0</version>
+            <version>${cdk.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>lambda</artifactId>
-            <version>0.22.0</version>
+            <version>${cdk.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>sns</artifactId>
-            <version>0.22.0</version>
+            <version>${cdk.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>sqs</artifactId>
-            <version>0.22.0</version>
+            <version>${cdk.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk.samples</groupId>

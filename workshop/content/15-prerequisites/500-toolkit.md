@@ -24,7 +24,7 @@ $ cdk --version
 {{% cdkversion %}}
 ```
 
-{{% notice info %}} __NOTE__: This workshop was tested with version __v{{% cdkversion %}}__ of the AWS CDK. Since the AWS
+{{% notice info %}} **NOTE**: This workshop was tested with version **v{{% cdkversion %}}** of the AWS CDK. Since the AWS
 CDK is still in developer preview, new versions of the AWS CDK may include
 breaking changes. Therefore, throughout the workshop, you will be instructed to
 install version {{% cdkversion %}} by using `npm install module@{{% cdkversion %}}`. {{% /notice %}}

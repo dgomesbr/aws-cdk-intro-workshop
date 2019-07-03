@@ -12,7 +12,7 @@ As usual, we first need to install the DynamoDB construct library (we already
 have the Lambda library installed):
 
 ```console
-npm install @aws-cdk/aws-dynamodb@0.22.0
+npm install @aws-cdk/aws-dynamodb@{{% cdkversion %}}
 ```
 
 {{% notice info %}}
